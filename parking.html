@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<title>ZGG | Parking</title>
+</head>
+<body>
+	<div class="preloader" id="page-preloader">
+		<div class="left-layer"></div>
+		<div class="left-layer left-layer--2"></div>
+		<div class="left-layer left-layer--3"></div>
+		<div class="left-layer left-layer--4"></div>
+	</div>
+	<div class="reserve">
+		<div class="reserve-card">
+			<span class="reserve__close"><img src="img/close.svg" alt="ico" class="img-fluid">Закрыть</span>
+			<h2 class="reserve__title">
+				Заявка на бронь
+			</h2>
+			<p class="reserve__text">
+				Оставьте Ваши контактные данные<br> и ваш персональный менеджер свяжется с вами
+			</p>
+			<form action="#" class="contact-form">
+				<input type="name" class="contact-form__name" placeholder="Ваше имя" required="">
+				<input type="tel" class="contact-form__tel" placeholder="Ваш телефон" maxlength="17" required="">
+				<div class="contact-form__wrap d-flex align-items-center justify-content-center">
+					<span class="wrap"><input type="checkbox" id="radio-btn" required=""><label for="radio-btn">Согласен на обработку<br> персональных данных</label></span>
+					<button type="submit" class="contact-form__btn">Отправить</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<header class="header header-main">
+		<div class="container">
+			<nav class="header__nav row align-items-center">
+				<div class="header-menu col-4 d-flex">
+					<div class="menu">
+						<div class="data">
+							<span class="menu-close"> <img src="img/cancel.svg"> Закрыть</span>
+							<ul class="nav-menu">
+								<li class="nav-menu__item"><a href="business.html" class="nav-menu__link">Для бизнеса</a></li>
+								<li class="nav-menu__item"><a href="flat.html" class="nav-menu__link">Выбрать квартиру</a></li>
+								<li class="nav-menu__item"><a href="parking.html" class="nav-menu__link">Паркинг</a></li>
+								<li class="nav-menu__item"><a href="news.html" class="nav-menu__link">Новости</a></li>
+								<li class="nav-menu__item"><a href="about.html" class="nav-menu__link">О проекте</a></li>
+								<li class="nav-menu__item"><a href="#" class="nav-menu__link">Расположение</a></li>
+								<li class="nav-menu__item"><a href="contact.html" class="nav-menu__link">Контакты</a></li>	
+							</ul>
+						</div>
+					</div>
+					<div class="header-menu__btn d-flex align-items-center">
+						<div class="header-menu__img">
+							<span class="header-menu__img1"></span>
+							<span class="header-menu__img2"></span>
+							<span class="header-menu__img3"></span>
+						</div>
+						<span class="header-menu__text">Меню</span>
+					</div>
+					<a href="business.html" class="header-menu__link">Для бизнеса</a>
+				</div>
+				<div class="header-logo col-4">
+					<a href="index.html" class="header-logo__link">Logo</a>
+				</div>
+				<div class="header-tel col-4 d-flex align-items-center justify-content-end">
+					<a href="tel:+998712000000" class="tel-mobi"><img src="img/Shape.svg" alt="ico"></a>
+					<span class="tel-ico"></span>
+					<a href="tel:+998712000000"><span class="tel"><span class="gray">71 </span> 200 00 00</span></a>
+					<a href="#" class="header-lang"> <span class="uz">UZ</span></a>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<section class="floor">
+		<div class="container">
+			<a href="javascript:history.back()" class="flat__back btn"><img src="img/back.svg" alt="ico" class="img-fluid">Вернуться назад</a>
+			<div class="floor-main">
+				<img src="img/parking.png" alt="parking">
+			</div>
+		</div>
+	</section>
+	<footer class="footer footer-main d-flex justify-content-between align-items-center">
+		<div class="container d-flex justify-content-between align-items-center">
+			<div class="footer__menu d-flex align-items-center">
+				<ul class="footer-menu">
+					<li class="footer-menu__item"><a href="about.html" class="footer-menu__link">О проекте</a></li>
+					<li class="footer-menu__item"><a href="news.html" class="footer-menu__link">Новости</a></li>
+					<li class="footer-menu__item"><a href="parking.html" class="footer-menu__link">Паркинг</a></li>
+				</ul>
+			</div>
+			<div class="footer__follow">
+				<ul class="follow">
+					<li class="follow__item"><a href="#" class="follow__link" rel="nofollow" target="_blank"><img src="img/facebook.svg" alt="facebook" class="img-fluid"></a></li>
+					<li class="follow__item"><a href="#" class="follow__link" rel="nofollow" target="_blank"><img src="img/instagram.svg" alt="instagram" class="img-fluid"></a></li>
+					<li class="follow__item"><a href="#" class="follow__link" rel="nofollow" target="_blank"><img src="img/linkedin.svg" alt="telegram" class="img-fluid"></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery.inputmask.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

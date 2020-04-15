@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="50" viewBox="0 0 56 50">
+    <defs>
+        <filter id="prefix__a" width="222.2%" height="241.7%" x="-61.1%" y="-66.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6.5"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.582993659 0 0 0 0 0.372780535 0 0 0 0 0.125863532 0 0 0 1 0"/>
+            <feOffset dy="-5" in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0.940726902 0 0 0 0 0.717987718 0 0 0 0 0.504529333 0 0 0 1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <filter id="prefix__c" width="541.7%" height="561.1%" x="-220.8%" y="-226.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="58.5"/>
+            <feOffset dy="16" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0776059878 0"/>
+        </filter>
+        <rect id="prefix__b" width="36" height="36" x="0" y="0" rx="18"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(7 7)">
+        <use fill="#000" filter="url(#prefix__a)" xlink:href="#prefix__b"/>
+        <use fill="#E4A252" xlink:href="#prefix__b"/>
+        <use fill="#000" filter="url(#prefix__c)" xlink:href="#prefix__b"/>
+        <g fill="#FFF" fill-rule="nonzero">
+            <path d="M8.316.002h-.019-.011-.003C8.265-.002 8.26.001 8.246.001 6.068 0 3.949.864 2.383 2.383L.66.634C.577.553.451.527.347.571.24.617.167.72.167.838v5.677c0 .16.13.29.288.29h5.621c.159 0 .288-.13.288-.29 0-.106-.058-.2-.144-.25l-1.7-1.72c1.008-.974 2.324-1.507 3.766-1.507 2.945.019 5.343 2.43 5.343 5.423-.022 2.941-2.434 5.336-5.426 5.336l.007 3.038h.041c4.61 0 8.387-3.752 8.416-8.416 0-4.607-3.742-8.378-8.351-8.417z" transform="translate(10 10)"/>
+        </g>
+    </g>
+</svg>
